@@ -1,0 +1,61 @@
+/**
+ * OpenCart Ukrainian Community
+ *
+ * LICENSE
+ *
+ * This source file is subject to the GNU General Public License, Version 3
+ * It is also available through the world-wide-web at this URL:
+ * http://www.gnu.org/copyleft/gpl.html
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@opencart-ua.org so we can send you a copy immediately.
+ *
+ * @category   OpenCart
+ * @package    OCU Ajax Category
+ * @copyright  Copyright (c) 2011 Eugene Kuligin by OpenCart Ukrainian Community (http://opencart-ua.org)
+ * @license    http://www.gnu.org/copyleft/gpl.html     GNU General Public License, Version 3
+ */
+
+#ocu-ajax-category-layer {
+    position: absolute;
+    left: 320px;
+    margin-top: -8px;
+    z-index: 9999;
+}
+#ocu-ajax-category-layer .sub-container {
+    border: 10px #585858 solid;
+    border-top: none;
+    background: #fff;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+#ocu-ajax-category-layer div.header {
+    color: #fff;
+    background: #585858;
+    height: 30px;
+    line-height: 30px;
+}
+
+#ocu-ajax-category-layer div.body {
+    float: left;
+    padding: 15px;
+    height: 115px;
+}
+#ocu-ajax-category-layer div.image {
+    display: block;
+}
+#ocu-ajax-category-layer div.body a {
+    color: #555;
+}
+
+.box-category > ul > li:hover,
+.box-category > ul > li.active {
+    background: #585858;
+    padding-left: 10px;
+}
+.box-category > ul > li:hover a.ocu-ajax-category,
+.box-category > ul > li.active a.ocu-ajax-category,
+.box-category > ul > li ul > li > a {
+    color: #fff;
+}

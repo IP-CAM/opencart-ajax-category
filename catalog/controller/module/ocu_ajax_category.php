@@ -99,8 +99,6 @@ class ControllerModuleOcuAjaxCategory extends Controller {
         }
 
         // Get subcategories
-        $this->model_catalog_category->getCategories($category_id);
-
         $categories = $this->model_catalog_category->getCategories($category_id);
 
         if ($categories) {
